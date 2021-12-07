@@ -18,6 +18,7 @@
 		E7F177B4275E30010061CD96 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F177B1275E30010061CD96 /* sound-tap.mp3 */; };
 		E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C0275FA3DD0061CD96 /* Constant.swift */; };
 		E7F177C3275FC5C00061CD96 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */; };
+		E7F177C5275FD2D30061CD96 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E7F177BB275E31370061CD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7F177C0275FA3DD0061CD96 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E7F1779E275E2F420061CD96 /* ContentView.swift */,
+				E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F177A6275E2F420061CD96 /* Persistence.swift in Sources */,
+				E7F177C5275FD2D30061CD96 /* BackgroundImageView.swift in Sources */,
 				E7F1779F275E2F420061CD96 /* ContentView.swift in Sources */,
 				E7F177C3275FC5C00061CD96 /* HideKeyboardExtension.swift in Sources */,
 				E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */,
