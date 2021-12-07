@@ -19,6 +19,7 @@
 		E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C0275FA3DD0061CD96 /* Constant.swift */; };
 		E7F177C3275FC5C00061CD96 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */; };
 		E7F177C5275FD2D30061CD96 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */; };
+		E7F177C7275FD44E0061CD96 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C6275FD44E0061CD96 /* NewTaskItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E7F177C0275FA3DD0061CD96 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		E7F177C6275FD44E0061CD96 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				E7F1779E275E2F420061CD96 /* ContentView.swift */,
 				E7F177C4275FD2D30061CD96 /* BackgroundImageView.swift */,
+				E7F177C6275FD44E0061CD96 /* NewTaskItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */,
 				E7F177A9275E2F420061CD96 /* Devote.xcdatamodeld in Sources */,
 				E7F1779D275E2F420061CD96 /* DevoteApp.swift in Sources */,
+				E7F177C7275FD44E0061CD96 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
