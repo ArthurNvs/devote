@@ -17,6 +17,7 @@
 		E7F177B3275E30010061CD96 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F177B0275E30010061CD96 /* sound-rise.mp3 */; };
 		E7F177B4275E30010061CD96 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7F177B1275E30010061CD96 /* sound-tap.mp3 */; };
 		E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C0275FA3DD0061CD96 /* Constant.swift */; };
+		E7F177C3275FC5C00061CD96 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E7F177B1275E30010061CD96 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		E7F177BB275E31370061CD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7F177C0275FA3DD0061CD96 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E7F177B7275E30490061CD96 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E7F177C2275FC5C00061CD96 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				E7F177A6275E2F420061CD96 /* Persistence.swift in Sources */,
 				E7F1779F275E2F420061CD96 /* ContentView.swift in Sources */,
+				E7F177C3275FC5C00061CD96 /* HideKeyboardExtension.swift in Sources */,
 				E7F177C1275FA3DD0061CD96 /* Constant.swift in Sources */,
 				E7F177A9275E2F420061CD96 /* Devote.xcdatamodeld in Sources */,
 				E7F1779D275E2F420061CD96 /* DevoteApp.swift in Sources */,
