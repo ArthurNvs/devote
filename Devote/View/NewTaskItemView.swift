@@ -61,7 +61,7 @@ struct NewTaskItemView: View {
         .disabled(isButtonDisabled)
         .padding()
         .foregroundColor(.white)
-        .background(isButtonDisabled ? Color.blue : Color.pink)
+        .background(isButtonDisabled ? Color.gray : Color.pink)
         .cornerRadius(10)
       } //: VStack
       .padding(.horizontal)
