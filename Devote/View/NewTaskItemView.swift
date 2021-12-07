@@ -53,6 +53,7 @@ struct NewTaskItemView: View {
         
         Button(action: {
           addItem()
+          playSound(sound: "sound-ding", type: "mp3")
         }) {
           Spacer()
           Text("SAVE")
@@ -60,6 +61,12 @@ struct NewTaskItemView: View {
           Spacer()
         } //: Button
         .disabled(isButtonDisabled)
+        .onTapGesture {
+          if isButtonDisabled {
+            playSound(sound: "sound-tap", type: "mp3")
+            feedback.notificationOccurred(.success)
+          }
+        }
         .padding()
         .foregroundColor(.white)
         .background(isButtonDisabled ? Color.gray : Color.pink)
